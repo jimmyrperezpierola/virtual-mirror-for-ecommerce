@@ -22,7 +22,7 @@
 		<!-- MobileFirst adapter deployment properties -->
         <mfpfUrl>http://localhost:8080/mfpadmin</mfpfUrl>
 		<mfpfUser>admin</mfpfUser>
-		<mfpfPassword></mfpfPassword>
+		<mfpfPassword/>
 		<mfpfRuntime>mfp</mfpfRuntime>
 	</properties>
 
@@ -46,7 +46,7 @@
 		<dependency>
 			<groupId>org.apache.httpcomponents</groupId>
 			<artifactId>httpcore</artifactId>
-			<version>4.4.5</version>
+			<version>4.4.16</version>
 		</dependency>
 	</dependencies>
 
