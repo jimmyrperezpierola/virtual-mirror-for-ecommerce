@@ -1,5 +1,5 @@
 Flask==1.0.2
-Flask-Cors==3.0.7
+Flask-Cors==6.0.0
 ibm-cos-sdk==2.4.2
 ibm-cos-sdk-core==2.4.2
 ibm-cos-sdk-s3transfer==2.4.2
@@ -13,3 +13,4 @@ scikit-learn==0.20.1
 ibm_db==2.0.9
 msgpack==0.6.1
 ibmdbpy==0.1.5
+urllib3>=2.5.0 # not directly required, pinned by Snyk to avoid a vulnerability
