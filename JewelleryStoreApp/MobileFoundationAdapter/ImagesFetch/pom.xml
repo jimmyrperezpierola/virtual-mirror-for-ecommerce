@@ -22,7 +22,7 @@
 		<!-- MobileFirst adapter deployment properties -->
         <mfpfUrl>http://localhost:8080/mfpadmin</mfpfUrl>
 		<mfpfUser>admin</mfpfUser>
-		<mfpfPassword></mfpfPassword>
+		<mfpfPassword/>
 		<mfpfRuntime>mfp</mfpfRuntime>
 	</properties>
 
@@ -36,7 +36,7 @@
 		<dependency>
 			<groupId>com.ibm.cos</groupId>
 			<artifactId>ibm-cos-java-sdk</artifactId>
-			<version>1.1.0</version>
+			<version>2.13.1</version>
 		</dependency>
 		<dependency>
 			<groupId>org.apache.httpcomponents</groupId>
